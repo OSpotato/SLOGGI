@@ -7014,8 +7014,7 @@ html.fp-enabled,
 
 .widget-sloggi-inst{
   width: 100%;
-  max-width: 900px;
-  overflow-x: scroll;
+  max-width: 905px;
   margin: 0 auto;
 }
 
@@ -7045,4 +7044,6 @@ html.fp-enabled,
   line-height: 15px;
 }
 
-
+.eapps-link{
+  display: none!important;
+}
