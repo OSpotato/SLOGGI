@@ -7004,16 +7004,6 @@ html.fp-enabled,
   }
 }
 
-@media (max-height: 750px){
-
-  .footer__link-to-statue{
-    position: absolute;
-    right: 0px;
-    bottom: -20px;
-  }
-
-}
-
 @media (max-height: 650px){
 
   .footer__link-to-statue{
@@ -7024,9 +7014,8 @@ html.fp-enabled,
 
 .widget-sloggi-inst{
   width: 100%;
-  max-width: 510px;
-  max-height: 600px;
-  overflow-y: scroll;
+  max-width: 900px;
+  overflow-x: scroll;
   margin: 0 auto;
 }
 
@@ -7039,7 +7028,7 @@ html.fp-enabled,
 }
 
 .img__sloggi{
-  width: 50px;
+  width: 70px;
 }
 
 .eapps-link{
@@ -7047,36 +7036,13 @@ html.fp-enabled,
   background-color: #fff;
 }
 
-@media(max-height: 750px){
-  .widget-sloggi-inst{
-    max-width: 510px;
-    max-height: 550px;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
+.jest__sloggi{
+  color: #eee;
+  line-height: 15px;
 }
 
-@media(max-height: 850px){
-  .widget-sloggi-inst{
-    max-width: 510px;
-    max-height: 600px;
-    overflow-y: scroll;
-  }
+.dust__slogi{
+  line-height: 15px;
 }
-
-@media(min-height: 850px){
-  .widget-sloggi-inst{
-    max-width: 510px;
-    max-height: 720px;
-    overflow-y: hidden;
-  }
-}
-@media(min-height: 890px){
-  .widget-sloggi-inst{
-    max-height: 750px;
-  }
-}
-
-
 
 
