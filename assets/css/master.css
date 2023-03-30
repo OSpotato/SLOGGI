@@ -7020,6 +7020,12 @@ html.fp-enabled,
   overflow: hidden;
 }
 
+@media (max-width: 520px){
+  .widget-sloggi-inst{
+    max-height: 500px;
+  }
+}
+
 .sloggi__hashtag{
   margin-bottom: 40px;
 }
