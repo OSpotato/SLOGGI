@@ -7016,6 +7016,8 @@ html.fp-enabled,
   width: 100%;
   max-width: 905px;
   margin: 0 auto;
+  max-height: 546px;
+  overflow: hidden;
 }
 
 .sloggi__hashtag{
@@ -7030,11 +7032,6 @@ html.fp-enabled,
   width: 70px;
 }
 
-.eapps-link{
-  display: none!important;
-  background-color: #fff;
-}
-
 .jest__sloggi{
   color: #eee;
   line-height: 15px;
@@ -7044,6 +7041,4 @@ html.fp-enabled,
   line-height: 15px;
 }
 
-.eapps-link{
-  display: none!important;
-}
+
