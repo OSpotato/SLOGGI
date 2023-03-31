@@ -687,7 +687,4 @@
 
 	});
 
-  const adds__remove = document.querySelector('.eapps-link');
-  adds__remove.innerHTML = "";
-
 /*End Jquery*/
