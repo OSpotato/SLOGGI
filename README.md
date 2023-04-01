@@ -1,1 +1,1 @@
-##Sloggi konkurs
+Sloggi konkurs
