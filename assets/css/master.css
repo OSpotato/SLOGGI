@@ -7772,6 +7772,11 @@ html.fp-enabled,
 	color: royalblue;
 }
 
+.contact__adress-email{
+	width: 50px;
+	color: #ccc;
+}
+
 @media (max-width: 450px) {
 	.footer__link-to-statue {
 		font-size: 11px;
@@ -7780,6 +7785,10 @@ html.fp-enabled,
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+	}
+
+	.contact__adress-email{
+		width: 100%;
 	}
 
 	.more__info__footer{
