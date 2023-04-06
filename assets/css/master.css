@@ -7819,25 +7819,40 @@ html.fp-enabled,
 	}
 }
 
-// .girloy-font{
-// 	font-family: gilroy-regular;
-// 	src: url('../fonts/gilroy-regular.otf');
-// }
-
 @font-face{
-	font-family: 'VelodromaBasic-Wide', sans-serif;
+	font-family: 'VelodromaBasic-Wide';
 	src: url('../fonts/VelodromaBasic-Wide.otf');
+
 	font-family: "gilroy-regular";
 	src: url('../fonts/gilroy-regular.otf');
+
 	font-family: "TriumphGrand-Roman";
 	src: url("../fonts/TriumphGrand-Roman.otf");
+
 	font-family: "gilroy-bold";
-	src: url("../fonts/gilroy-bold.otf")
+	src: url("../fonts/gilroy-bold.otf");
 }
+
+.triumphGrand-roman{
+	font-family: "";
+}
+
+.velodromaBasic-Wide{
+	font-family: 'VelodromaBasic-Wide', sans-serif;
+}
+
 
 .girloy-font{
 	font-family: "gilroy";
 	font-size: 18px;
+}
+
+.girloy-font-h1{
+	font-family: "gilroy";
+}
+
+.girloy-font-p{
+	font-family: "gilroy";
 }
 
 .girloy-bold-font{

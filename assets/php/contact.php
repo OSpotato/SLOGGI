@@ -1,5 +1,5 @@
 <?php
- $to = "sloggi-website@rubyonsaas.com";
+ $to = "adrianna.skoneczna@platiniumcast.pl";
  $subject = $_POST['subject'];
  $body = "From, ".$_POST['name']."\n\n"."Email, ".$_POST['email']."\n\n".$_POST['message'];
  if (mail($to, $subject, $body)) {
