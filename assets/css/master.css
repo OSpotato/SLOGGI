@@ -7826,15 +7826,30 @@ html.fp-enabled,
 	font-family: "gilroy-regular";
 	src: url('../fonts/gilroy-regular.otf');
 
-	font-family: "TriumphGrand-Roman";
-	src: url("../fonts/TriumphGrand-Roman.otf");
+	font-family: 'TriumphGrand-Roman';
+	src: url("../fonts/TriumphGrand-Roman.otf") format('truetype');
 
 	font-family: "gilroy-bold";
 	src: url("../fonts/gilroy-bold.otf");
+
+	font-family: "Gilroy-MediumItalic";
+	src: url("../fonts/Gilroy-MediumItalic.woff");
 }
 
-.triumphGrand-roman{
-	font-family: "";
+@font-face {
+	font-family: 'VelodromaBasic-Wide';
+	src: url('../fonts/VelodromaBasic-Wide.otf') format('otf'),
+		 url('../fonts/VelodromaBasic-Regular.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+.mediumItalic{
+	font-family: "Gilroy-MediumItalic";
+}
+
+.triumph{
+	font-family: 'TriumphGrand-Roman';
 }
 
 .velodromaBasic-Wide{
