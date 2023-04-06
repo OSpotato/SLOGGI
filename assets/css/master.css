@@ -7818,3 +7818,35 @@ html.fp-enabled,
 		align-items: center;
 	}
 }
+
+// .girloy-font{
+// 	font-family: gilroy-regular;
+// 	src: url('../fonts/gilroy-regular.otf');
+// }
+
+@font-face{
+	font-family: 'VelodromaBasic-Wide', sans-serif;
+	src: url('../fonts/VelodromaBasic-Wide.otf');
+	font-family: "gilroy-regular";
+	src: url('../fonts/gilroy-regular.otf');
+	font-family: "TriumphGrand-Roman";
+	src: url("../fonts/TriumphGrand-Roman.otf");
+	font-family: "gilroy-bold";
+	src: url("../fonts/gilroy-bold.otf")
+}
+
+.girloy-font{
+	font-family: "gilroy";
+	font-size: 18px;
+}
+
+.girloy-bold-font{
+	font-family: "gilroy-bold";
+	font-size: 18px;
+}
+
+
+.div__max__height{
+	max-height: 600px;
+	overflow: scroll;
+}
