@@ -7863,5 +7863,51 @@ html.fp-enabled,
 
 .div__max__height{
 	max-height: 600px;
-	overflow: scroll;
+	overflow-y: scroll;
 }
+
+/* Kod CSS dla popupa z informacją o plikach cookie */
+.popup {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+	z-index: 1;
+  }
+  
+  .popup-content {
+	background-color: #000000;
+	padding: 20px;
+	border: 1px solid #333;
+	width: 250px;
+	max-width: 100%;
+  }
+
+  .cookies__color{
+	color: #aaa;
+  }
+  
+  .popup-content h2 {
+	margin-top: 0;
+  }
+  
+  .cookie-options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+  
+  .cookie-options button {
+	margin-left: 20px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #008000;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  
+  
+  
