@@ -7912,6 +7912,13 @@ html.fp-enabled,
 	justify-content: space-between;
 	margin-top: 20px;
   }
+
+  .cookie-popup-link{
+	color: #4499B4;
+  }
+  .cookie-popup-link:hover{
+	color: #4499B4;
+  }
   
   .cookie-options button {
 	margin-left: 20px;
