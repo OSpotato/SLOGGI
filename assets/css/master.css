@@ -7581,6 +7581,32 @@ html.fp-enabled,
 	height: auto !important;
 }
 
+@font-face{
+	font-family: 'VelodromaBasic-Wide';
+	src: url('../fonts/VelodromaBasic-Wide.otf');
+
+	font-family: "gilroy-regular";
+	src: url('../fonts/gilroy-regular.otf');
+
+	font-family: 'TriumphGrand-Roman';
+	src: url("../fonts/TriumphGrand-Roman.otf") format('truetype');
+
+	font-family: "gilroy-bold";
+	src: url("../fonts/gilroy-bold.otf");
+
+	font-family: "Gilroy-MediumItalic";
+	src: url("../fonts/Gilroy-MediumItalic.woff");
+}
+
+@font-face {
+	font-family: 'VelodromaBasic-Wide';
+	src: url('../fonts/VelodromaBasic-Wide.otf') format('otf'),
+		 url('../fonts/VelodromaBasic-Regular.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+
 .model-box {
 	position: absolute;
 	top: 50px;
@@ -7747,7 +7773,11 @@ html.fp-enabled,
 }
 
 .footer__social-media-sloggi {
-	line-height: 20px;
+	line-height: 10px;
+}
+
+.mb__less{
+	margin-bottom: 4px;
 }
 
 .img__media__footer {
@@ -7797,18 +7827,23 @@ html.fp-enabled,
 		justify-content: center;
 		width: 100%;
 		align-items: center;
+		font-family: "gilroy";
 	}
 
 	.header__footer-info{
-		width: 150px
+		width: 150px;
+		font-family: "gilroy";
 	}
 
 	.dust__sloggi{
 		margin-bottom: 5px;
+		font-family: "gilroy";
 	}
 
 	.jest__sloggi{
 		width: 120px;
+		font-family: "gilroy";
+		
 	}
 
 	.header__footer-media{
@@ -7816,33 +7851,10 @@ html.fp-enabled,
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		font-family: "gilroy";
 	}
 }
 
-@font-face{
-	font-family: 'VelodromaBasic-Wide';
-	src: url('../fonts/VelodromaBasic-Wide.otf');
-
-	font-family: "gilroy-regular";
-	src: url('../fonts/gilroy-regular.otf');
-
-	font-family: 'TriumphGrand-Roman';
-	src: url("../fonts/TriumphGrand-Roman.otf") format('truetype');
-
-	font-family: "gilroy-bold";
-	src: url("../fonts/gilroy-bold.otf");
-
-	font-family: "Gilroy-MediumItalic";
-	src: url("../fonts/Gilroy-MediumItalic.woff");
-}
-
-@font-face {
-	font-family: 'VelodromaBasic-Wide';
-	src: url('../fonts/VelodromaBasic-Wide.otf') format('otf'),
-		 url('../fonts/VelodromaBasic-Regular.otf') format('otf');
-	font-weight: normal;
-	font-style: normal;
-  }
 
 .mediumItalic{
 	font-family: "Gilroy-MediumItalic";
