@@ -7623,6 +7623,8 @@ html.fp-enabled,
 .gilroy-MediumItalic{
 	font-family: "Gilroy-MediumItalic";
 	color: #ec407a;
+	font-size: 32px;
+	line-height: 30px;
 }
 
 .triumph{
@@ -7638,6 +7640,10 @@ html.fp-enabled,
 	font-size: 26px;
 }
 
+.just__girloy{
+	font-family: "gilroy-regular";
+}
+
 @media (min-width: 992px) and (max-width: 1249px){
 	.footer__link-to-statue a{
 		font-size: 10px;
@@ -7646,21 +7652,13 @@ html.fp-enabled,
 
 
 @media (max-width: 450px){
-	.triumph{
-		font-size: 34px;
-	}
-}
-
-@media (max-width: 450px){
 	.gilroy-regular{
 		font-size: 30px;
 	}
 
 	.gilroy-regular-h3{
 		font-size: 24px;
-	}
-
-	
+	}	
 }
 
 .lower__case{
