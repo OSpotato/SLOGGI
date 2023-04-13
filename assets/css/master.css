@@ -7601,9 +7601,37 @@ html.fp-enabled,
 	src: url('../fonts/gilroy-regular.otf');
 }
 
+@font-face {
+	font-family: "gilroy-bold";
+	src: url('../fonts/gilroy-bold.otf');
+}
+
+.gilroy-bold{
+	font-family: "gilroy-bold";
+}
+
+.gilroy-regular{
+	font-family: "gilroy-regular";
+	font-size: 46px;
+}
+
+.gilroy-regular-h3{
+	font-family: "gilroy-regular";
+	font-size: 32px;
+}
+
+.gilroy-MediumItalic{
+	font-family: "Gilroy-MediumItalic";
+	color: #ec407a;
+}
+
 .triumph{
 	font-family: 'TriumphGrand-Roman';
 	font-size: 40px;
+}
+
+.big__Case{
+	text-transform: uppercase;
 }
 
 .fs-22{
@@ -7616,11 +7644,6 @@ html.fp-enabled,
 	}
 }
 
-@media (max-width: 1250px){
-	.triumph{
-		font-size: 36px;
-	}
-}
 
 @media (max-width: 450px){
 	.triumph{
@@ -7629,9 +7652,15 @@ html.fp-enabled,
 }
 
 @media (max-width: 450px){
-	.triumph{
-		font-size: 20px;
+	.gilroy-regular{
+		font-size: 30px;
 	}
+
+	.gilroy-regular-h3{
+		font-size: 24px;
+	}
+
+	
 }
 
 .lower__case{
