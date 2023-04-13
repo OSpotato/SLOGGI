@@ -7610,6 +7610,12 @@ html.fp-enabled,
 	font-size: 26px;
 }
 
+@media (min-width: 992px) and (max-width: 1249px){
+	.footer__link-to-statue a{
+		font-size: 10px;
+	}
+}
+
 @media (max-width: 1250px){
 	.triumph{
 		font-size: 36px;
