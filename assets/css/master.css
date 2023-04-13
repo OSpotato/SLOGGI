@@ -769,7 +769,7 @@ body {
 	color: #888;
 	background: #fafafa;
 	font-size: 16px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'gilroy-regular';
 	font-weight: 400;
 	overflow-x: hidden;
 }
@@ -789,18 +789,6 @@ body {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-.poppin-font {
-	font-family: 'Poppins', sans-serif;
-}
-.play-font {
-	font-family: 'Playfair Display', serif;
-}
-.source-font {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-.kaushan-font {
-	font-family: 'Kaushan Script', cursive;
 }
 
 h1,
@@ -1209,16 +1197,6 @@ nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a.btn-outline:focus {
 	z-index: 10;
 	color: #fff;
 }
-.hero-text h3,
-.hero-text h1 {
-	color: #3949ab;
-}
-
-.hero-text h1 {
-	font-size: 78px;
-	letter-spacing: -2px;
-	line-height: 1.25;
-}
 
 .hero-text h1.letter-spacing-10 {
 	letter-spacing: 10px;
@@ -1226,30 +1204,6 @@ nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a.btn-outline:focus {
 
 .hero-text h1.letter-spacing-0 {
 	letter-spacing: 0px;
-}
-
-.hero-text-wrap .hero-text h1.font-90px {
-	font-size: 90px;
-}
-
-.hero-text h2 {
-	font-size: 62px;
-}
-
-.hero-text h3 {
-	font-size: 49px;
-}
-
-.hero-text h4 {
-	font-size: 30px;
-}
-
-.hero-text h5 {
-	font-size: 19px;
-}
-
-.hero-text h6 {
-	font-size: 14px;
 }
 
 .dark-bg {
@@ -1669,7 +1623,7 @@ a:focus {
 	color: #1a237e;
 }
 .white-color {
-	color: #fff !important;
+	color: #fff;
 }
 .white-color p,
 .white-color h1,
@@ -1678,7 +1632,7 @@ a:focus {
 .white-color h4,
 .white-color h5,
 .white-color h6 {
-	color: #fff !important;
+	color: #fff;
 }
 .dark-color {
 	color: #212121 !important;
@@ -7606,85 +7560,6 @@ html.fp-enabled,
 	src: url('../fonts/gilroy-bold.otf');
 }
 
-.gilroy-bold{
-	font-family: "gilroy-bold";
-}
-
-.gilroy-regular{
-	font-family: "gilroy-regular";
-	font-size: 46px;
-}
-
-.gilroy-regular-h3{
-	font-family: "gilroy-regular";
-	font-size: 32px;
-}font-size: 32px;
-
-.tolowerfont{
-	font-size: 28px!important;
-}
-
-.taff-gilroy{
-	font-size: 32px!important;
-}
-
-
-
-.taff_hed{
-	font-size: 24px!important;
-	font-family: "Gilroy-MediumItalic";
-	color: #ec407a!important;
-}
-
-.gilroy-MediumItalic{
-	font-family: "Gilroy-MediumItalic";
-	color: #ec407a;
-	font-size: 24px;
-	line-height: 26px;
-}
-
-.triumph{
-	font-family: 'TriumphGrand-Roman';
-	font-size: 40px;
-}
-
-.big__Case{
-	text-transform: uppercase;
-}
-
-.fs-22{
-	font-size: 26px;
-}
-
-.just__girloy{
-	font-family: "gilroy-regular";
-}
-
-@media (min-width: 992px) and (max-width: 1249px){
-	.footer__link-to-statue a{
-		font-size: 10px;
-	}
-}
-
-
-@media (max-width: 450px){
-	.gilroy-regular{
-		font-size: 30px;
-	}
-
-	.taff-gilroy{
-		font-size: 28px!important;
-	}
-
-	.gilroy-regular-h3{
-		font-size: 24px;
-	}	
-
-	.tolowerfont{
-		font-size: 26!important;
-	}
-}
-
 .lower__case{
 	text-transform: lowercase;
 	font-family: "gilroy-regular";
@@ -7938,33 +7813,6 @@ html.fp-enabled,
 	}
 }
 
-
-.mediumItalic{
-	font-family: "Gilroy-MediumItalic";
-}
-
-.triumph{
-	font-family: 'TriumphGrand-Roman';
-}
-
-.velodromaBasic-Wide{
-	font-family: 'VelodromaBasic-Wide', sans-serif;
-}
-
-
-.girloy-font{
-	font-family: "gilroy";
-	font-size: 18px;
-}
-
-.girloy-font-h1{
-	font-family: "gilroy";
-}
-
-.girloy-font-p{
-	font-family: "gilroy";
-}
-
 .girloy-bold-font{
 	font-family: "gilroy-bold";
 	font-size: 18px;
@@ -8038,4 +7886,89 @@ html.fp-enabled,
 	height: 100%;
   }
   
-  
+  /* ======= font ========*/
+
+.gilroy-bold{
+	font-family: "gilroy-bold";
+}
+
+.gilroy-regular{
+	font-family: "gilroy-regular";
+}
+
+.gilroy-regular-h2{
+	font-family: "gilroy-regular";
+	font-size: 32px;
+}
+
+.gilroy-MediumItalic-h3{
+	font-family: "Gilroy-MediumItalic";
+	color: #ec407a;
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.gilroy-regular-h4{
+	font-family: "gilroy-regular";
+	font-size: 24px;
+}
+
+.big__Case{
+	text-transform: uppercase;
+}
+
+.fs-22{
+	font-size: 26px;
+}
+
+.just__girloy{
+	font-family: "gilroy-regular";
+}
+
+.main__header-h1{
+	font-size: 60px;
+}
+
+@media (min-width: 992px) and (max-width: 1249px){
+	.footer__link-to-statue a{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 1000px){
+	.main__header-h1{
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 750px){
+	.main__header-h1{
+		font-size: 45px;
+	}
+
+	.gilroy-regular-h2{
+		font-size: 26px;
+	}
+
+	.gilroy-MediumItalic-h3{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 450px){
+	.gilroy-regular-h3{
+		font-size: 24px;
+	}	
+
+	.gilroy-regular-h2{
+		font-size: 24px;
+	}
+
+	.gilroy-regular-h4{
+		font-size: 20px;
+	}
+
+	.gilroy-MediumItalic-h3{
+		font-size: 18px;
+	}
+}

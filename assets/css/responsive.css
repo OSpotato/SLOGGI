@@ -66,7 +66,7 @@
 
 
 @media (min-width:767px) and (max-width:991px){
-	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 70px;}
+	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 
 	.feature-box, .counter, .copy-right, .post{margin-bottom:20px;}
 	.embed-container, .contact-us h3{margin-top:20px;}
 	.copy-right, .footer-copyright ul.social-media{text-align:center;}
@@ -83,7 +83,7 @@
 }
 
 @media (min-width:481px) and (max-width:766px){
-	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 70px!important;}
+	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 
 	.feature-box, .counter, .copy-right, .post{margin-bottom:20px;}
 	.embed-container, .contact-us h3{margin-top:20px;}
 	.copy-right, .footer-copyright ul.social-media{text-align:center;}
@@ -101,9 +101,9 @@
 }
 
 @media (min-width:320px) and (max-width:480px){
-	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1 {font-size: 40px!important;}
-	.slider-bg .hero-text h2, .hero-text h2, .error-cover-bg h2, .coming-cover-bg h2 {font-size: 30px!important;}
-	.slider-bg .hero-text h3, .hero-text h3, .error-cover-bg h3, .coming-cover-bg h3 {font-size: 20px!important;}
+	.slider-bg .hero-text h1, .hero-text h1, .error-cover-bg h1, .coming-cover-bg h1
+	.slider-bg .hero-text h2, .hero-text h2, .error-cover-bg h2, .coming-cover-bg h2 
+	.slider-bg .hero-text h3, .hero-text h3, .error-cover-bg h3, .coming-cover-bg h3
 	.feature-box, .counter, .copy-right, .post{margin-bottom:20px;}
 	.embed-container, .contact-us h3{margin-top:20px;}
 	.copy-right, .footer-copyright ul.social-media{text-align:center;}
