@@ -7582,30 +7582,29 @@ html.fp-enabled,
 }
 
 @font-face{
-	font-family: 'VelodromaBasic-Wide';
-	src: url('../fonts/VelodromaBasic-Wide.otf');
-
-	font-family: "gilroy-regular";
-	src: url('../fonts/gilroy-regular.otf');
-
-	font-family: 'TriumphGrand-Roman';
-	src: url("../fonts/TriumphGrand-Roman.otf") format('truetype');
-
-	font-family: "gilroy-bold";
-	src: url("../fonts/gilroy-bold.otf");
-
 	font-family: "Gilroy-MediumItalic";
 	src: url("../fonts/Gilroy-MediumItalic.woff");
 }
 
 @font-face {
 	font-family: 'VelodromaBasic-Wide';
-	src: url('../fonts/VelodromaBasic-Wide.otf') format('otf'),
-		 url('../fonts/VelodromaBasic-Regular.otf') format('otf');
-	font-weight: normal;
-	font-style: normal;
-  }
+	src: url('../fonts/VelodromaBasic-Wide.otf');
+}
 
+@font-face {
+	font-family: 'TriumphGrand-Roman';
+	src: url("../fonts/TriumphGrand-Roman.otf");
+}
+
+@font-face {
+	font-family: "gilroy-regular";
+	src: url('../fonts/gilroy-regular.otf');
+}
+
+.velodroma{
+	font-family: 'TriumphGrand-Roman';
+	font-size: 10px;
+}
 
 .model-box {
 	position: absolute;
