@@ -7601,9 +7601,36 @@ html.fp-enabled,
 	src: url('../fonts/gilroy-regular.otf');
 }
 
-.velodroma{
+.triumph{
 	font-family: 'TriumphGrand-Roman';
-	font-size: 10px;
+	font-size: 40px;
+}
+
+.fs-22{
+	font-size: 26px;
+}
+
+@media (max-width: 1250px){
+	.triumph{
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 450px){
+	.triumph{
+		font-size: 34px;
+	}
+}
+
+@media (max-width: 450px){
+	.triumph{
+		font-size: 20px;
+	}
+}
+
+.lower__case{
+	text-transform: lowercase;
+	font-family: "gilroy-regular";
 }
 
 .model-box {
