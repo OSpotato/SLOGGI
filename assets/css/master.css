@@ -7623,8 +7623,8 @@ html.fp-enabled,
 .gilroy-MediumItalic{
 	font-family: "Gilroy-MediumItalic";
 	color: #ec407a;
-	font-size: 32px;
-	line-height: 30px;
+	font-size: 24px;
+	line-height: 26px;
 }
 
 .triumph{
@@ -7848,17 +7848,17 @@ html.fp-enabled,
 }
 
 .sloggi__link:hover{
-	color: royalblue;
+	color: #4499B4;
 }
 .sloggi__link:active{
-	color: royalblue;
+	color: #4499B4;
 }
 
 .sloggi__link:visited {
-	color: royalblue;
+	color: #4499B4;
 }
 .sloggi__link:link {
-	color: royalblue;
+	color: #4499B4;
 }
 
 .contact__adress-email{
