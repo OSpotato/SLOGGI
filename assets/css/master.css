@@ -7618,6 +7618,22 @@ html.fp-enabled,
 .gilroy-regular-h3{
 	font-family: "gilroy-regular";
 	font-size: 32px;
+}font-size: 32px;
+
+.tolowerfont{
+	font-size: 28px!important;
+}
+
+.taff-gilroy{
+	font-size: 32px!important;
+}
+
+
+
+.taff_hed{
+	font-size: 24px!important;
+	font-family: "Gilroy-MediumItalic";
+	color: #ec407a!important;
 }
 
 .gilroy-MediumItalic{
@@ -7656,9 +7672,17 @@ html.fp-enabled,
 		font-size: 30px;
 	}
 
+	.taff-gilroy{
+		font-size: 28px!important;
+	}
+
 	.gilroy-regular-h3{
 		font-size: 24px;
 	}	
+
+	.tolowerfont{
+		font-size: 26!important;
+	}
 }
 
 .lower__case{
