@@ -12,6 +12,13 @@
   <!-- <meta name="robots" content="noindex"> -->
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
+  <script>
+    var hosts = ["www.sloggihouseparty.pl", "sloggihouseparty.pl"];
+    if ((hosts.includes(window.location.host)) && (window.location.protocol != "https:")){
+      window.location.protocol = "https";
+    }
+  </script>
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-88NEPMVXXJ%22%3E"></script>
   <script>
