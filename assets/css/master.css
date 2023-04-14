@@ -7535,9 +7535,9 @@ html.fp-enabled,
 	height: auto !important;
 }
 
-@font-face{
-	font-family: "Gilroy-MediumItalic";
-	src: url("../fonts/Gilroy-MediumItalic.woff");
+@font-face {
+	font-family: 'Gilroy-MediumItalic';
+	src: url('../fonts/Gilroy-MediumItalic.woff');
 }
 
 @font-face {
@@ -7547,22 +7547,22 @@ html.fp-enabled,
 
 @font-face {
 	font-family: 'TriumphGrand-Roman';
-	src: url("../fonts/TriumphGrand-Roman.otf");
+	src: url('../fonts/TriumphGrand-Roman.otf');
 }
 
 @font-face {
-	font-family: "gilroy-regular";
+	font-family: 'gilroy-regular';
 	src: url('../fonts/gilroy-regular.otf');
 }
 
 @font-face {
-	font-family: "gilroy-bold";
+	font-family: 'gilroy-bold';
 	src: url('../fonts/gilroy-bold.otf');
 }
 
-.lower__case{
+.lower__case {
 	text-transform: lowercase;
-	font-family: "gilroy-regular";
+	font-family: 'gilroy-regular';
 }
 
 .model-box {
@@ -7590,14 +7590,12 @@ html.fp-enabled,
 }
 
 .footer__link-to-statue a {
-	color: royalblue;
+	color: #4499b4;
 	cursor: pointer;
 }
 .footer__link-to-statue a:hover {
 	color: #ec407a;
 }
-
-
 
 @media (max-height: 650px) {
 	.footer__link-to-statue {
@@ -7710,7 +7708,7 @@ html.fp-enabled,
 		width: 1100px;
 	}
 
-	.jest__sloggi{
+	.jest__sloggi {
 		width: 110px;
 	}
 }
@@ -7720,7 +7718,7 @@ html.fp-enabled,
 		width: 1150px;
 	}
 
-	.jest__sloggi{
+	.jest__sloggi {
 		width: 110px;
 	}
 }
@@ -7734,7 +7732,7 @@ html.fp-enabled,
 	line-height: 10px;
 }
 
-.mb__less{
+.mb__less {
 	margin-bottom: 4px;
 }
 
@@ -7742,14 +7740,14 @@ html.fp-enabled,
 	width: 20px;
 }
 
-.x__change{
+.x__change {
 	line-height: 30px;
 }
 
-.sloggi__link:hover{
+.sloggi__link:hover {
 	color: #ec407a;
 }
-.sloggi__link:active{
+.sloggi__link:active {
 	color: #ec407a;
 }
 
@@ -7760,7 +7758,7 @@ html.fp-enabled,
 	color: #ec407a;
 }
 
-.contact__adress-email{
+.contact__adress-email {
 	width: 50px;
 	color: #ccc;
 }
@@ -7775,51 +7773,49 @@ html.fp-enabled,
 		text-align: center;
 	}
 
-	.contact__adress-email{
+	.contact__adress-email {
 		width: 100%;
 	}
 
-	.more__info__footer{
+	.more__info__footer {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
 		align-items: center;
-		font-family: "gilroy";
+		font-family: 'gilroy';
 	}
 
-	.header__footer-info{
+	.header__footer-info {
 		width: 150px;
-		font-family: "gilroy";
+		font-family: 'gilroy';
 	}
 
-	.dust__sloggi{
+	.dust__sloggi {
 		margin-bottom: 5px;
-		font-family: "gilroy";
+		font-family: 'gilroy';
 	}
 
-	.jest__sloggi{
+	.jest__sloggi {
 		width: 120px;
-		font-family: "gilroy";
-		
+		font-family: 'gilroy';
 	}
 
-	.header__footer-media{
+	.header__footer-media {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		font-family: "gilroy";
+		font-family: 'gilroy';
 	}
 }
 
-.girloy-bold-font{
-	font-family: "gilroy-bold";
+.girloy-bold-font {
+	font-family: 'gilroy-bold';
 	font-size: 18px;
 }
 
-
-.div__max__height{
+.div__max__height {
 	max-height: 600px;
 	overflow-y: scroll;
 }
@@ -7831,39 +7827,39 @@ html.fp-enabled,
 	bottom: 50px;
 	left: 50px;
 	z-index: 1;
-  }
-  
-  .popup-content {
+}
+
+.popup-content {
 	background-color: #000000;
 	padding: 20px;
 	border: 1px solid #333;
 	width: 250px;
 	max-width: 100%;
-  }
+}
 
-  .cookies__color{
+.cookies__color {
 	color: #aaa;
-  }
-  
-  .popup-content h2 {
+}
+
+.popup-content h2 {
 	margin-top: 0;
-  }
-  
-  .cookie-options {
+}
+
+.cookie-options {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 20px;
-  }
+}
 
-  .cookie-popup-link{
-	color: #4499B4;
-  }
-  .cookie-popup-link:hover{
-	color: #4499B4;
-  }
-  
-  .cookie-options button {
+.cookie-popup-link {
+	color: #4499b4;
+}
+.cookie-popup-link:hover {
+	color: #4499b4;
+}
+
+.cookie-options button {
 	margin-left: 20px;
 	padding: 10px 20px;
 	border: none;
@@ -7871,117 +7867,117 @@ html.fp-enabled,
 	color: #fff;
 	font-size: 16px;
 	cursor: pointer;
-  }
-  
-  /* move */
-  
-  #my-video {
+}
+
+/* move */
+
+#my-video {
 	width: 100%;
 	height: 500px;
 	background-color: #000;
-  }
-  
-  #my-video video {
+}
+
+#my-video video {
 	width: 100%;
 	height: 100%;
-  }
-  
-  /* ======= font ========*/
-
-.gilroy-bold{
-	font-family: "gilroy-bold";
 }
 
-.gilroy-regular{
-	font-family: "gilroy-regular";
+/* ======= font ========*/
+
+.gilroy-bold {
+	font-family: 'gilroy-bold';
 }
 
-.gilroy-regular-h2{
-	font-family: "gilroy-regular";
+.gilroy-regular {
+	font-family: 'gilroy-regular';
+}
+
+.gilroy-regular-h2 {
+	font-family: 'gilroy-regular';
 	font-size: 32px;
 }
 
-.gilroy-regular-h2-first{
-	font-family: "Gilroy-MediumItalic";
+.gilroy-regular-h2-first {
+	font-family: 'Gilroy-MediumItalic';
 	font-size: 32px;
 }
 
-.gilroy-MediumItalic-h3{
-	font-family: "Gilroy-MediumItalic";
+.gilroy-MediumItalic-h3 {
+	font-family: 'Gilroy-MediumItalic';
 	color: #ec407a;
 	font-size: 24px;
 	line-height: 26px;
 }
 
-.gilroy-regular-h4{
-	font-family: "gilroy-regular";
+.gilroy-regular-h4 {
+	font-family: 'gilroy-regular';
 	font-size: 24px;
 }
 
-.big__Case{
+.big__Case {
 	text-transform: uppercase;
 }
 
-.fs-22{
+.fs-22 {
 	font-size: 26px;
 }
 
-.just__girloy{
-	font-family: "gilroy-regular";
+.just__girloy {
+	font-family: 'gilroy-regular';
 }
 
-.main__header-h1{
+.main__header-h1 {
 	font-size: 60px;
 }
 
-@media (min-width: 992px) and (max-width: 1249px){
-	.footer__link-to-statue a{
+@media (min-width: 992px) and (max-width: 1249px) {
+	.footer__link-to-statue a {
 		font-size: 10px;
 	}
 }
 
-@media (max-width: 1000px){
-	.main__header-h1{
+@media (max-width: 1000px) {
+	.main__header-h1 {
 		font-size: 50px;
 	}
 }
 
-@media (max-width: 750px){
-	.main__header-h1{
+@media (max-width: 750px) {
+	.main__header-h1 {
 		font-size: 45px;
 	}
 
-	.gilroy-regular-h2{
+	.gilroy-regular-h2 {
 		font-size: 26px;
 	}
 
-	.gilroy-MediumItalic-h3{
+	.gilroy-MediumItalic-h3 {
 		font-size: 20px;
 	}
 }
 
-@media (max-width: 450px){
-	.gilroy-regular-h3{
-		font-size: 24px;
-	}	
-
-	.gilroy-regular-h2{
+@media (max-width: 450px) {
+	.gilroy-regular-h3 {
 		font-size: 24px;
 	}
 
-	.gilroy-regular-h4{
+	.gilroy-regular-h2 {
+		font-size: 24px;
+	}
+
+	.gilroy-regular-h4 {
 		font-size: 20px;
 	}
 
-	.gilroy-MediumItalic-h3{
+	.gilroy-MediumItalic-h3 {
 		font-size: 18px;
 	}
 }
 
-.pink-0{
+.pink-0 {
 	color: #ec407a;
 }
 
-.aquamarine{
-	color: #4499B4;
+.aquamarine {
+	color: #4499b4;
 }
