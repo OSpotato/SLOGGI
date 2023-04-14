@@ -7747,17 +7747,17 @@ html.fp-enabled,
 }
 
 .sloggi__link:hover{
-	color: #4499B4;
+	color: #ec407a;
 }
 .sloggi__link:active{
-	color: #4499B4;
+	color: #ec407a;
 }
 
 .sloggi__link:visited {
-	color: #4499B4;
+	color: #ec407a;
 }
 .sloggi__link:link {
-	color: #4499B4;
+	color: #ec407a;
 }
 
 .contact__adress-email{
@@ -7976,4 +7976,8 @@ html.fp-enabled,
 	.gilroy-MediumItalic-h3{
 		font-size: 18px;
 	}
+}
+
+.pink-0{
+	color: #ec407a;
 }
